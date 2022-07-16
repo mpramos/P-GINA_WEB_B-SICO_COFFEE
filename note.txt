@@ -1,2 +1,2 @@
-Para tener fotos de buena calidad 👉https://unsplash.com/es
-Para reducir las dimensiones de las imagenes es 👉 https://picresize.com/#
+Las imagene no se están alineando entonces para eso haremos
+los siguientes pasos
