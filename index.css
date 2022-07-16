@@ -30,3 +30,24 @@ h1,h2,h3{
     height:200px;
     background-blend-mode:normal;
 }
+/* Esto hacemos despues de contenedor de tiras */
+.tira_de_productos{
+    /* overflow:scroll; */
+    padding-top:5px;
+    padding-bottom:8px;
+    overflow-x:scroll;
+}
+.contenedor_de_tiras{
+    /*? por defecto está así 
+    display:row; */
+    display:flex;
+    /*? tambien puedo modificar con column 
+    flex-direction:column; */
+}
+
+.contenedor_de_tiras .card{
+        width:300px;
+        /*? COn flex-shrink No queremos q se dimensionen */
+        flex-shrink:0;
+        margin-right:5px;
+}
