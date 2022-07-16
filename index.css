@@ -1,4 +1,14 @@
 .cover{
     height:400px;
     /* border:1px solid red; */
+    background-image:url('./assets/rsz_1fahmi-fakhrudin-nzyzausbv0m-unsplash.jpg');
+    /*! Tamaño de la imagen 
+    probar esa linea de codigo para ver la diferencia
+    👉background-size:400px; */
+    background-size:cover;
+    color:white;
+    background-position:center;
+    /*! Entonar la imagen a color oscuro */
+    background-color:rgba(0, 0, 0, 0.5);
+    background-blend-mode:darken;
 }
